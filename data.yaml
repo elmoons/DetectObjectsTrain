@@ -1,0 +1,14 @@
+path: C:\Users\elmoo\PycharmProjects\train_for_hack\data
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['UAV']
+
+roboflow:
+  workspace: smallimageofdrones
+  project: small-drone-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/smallimageofdrones/small-drone-detection/dataset/1
